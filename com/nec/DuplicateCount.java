@@ -21,7 +21,7 @@ public class DuplicateCount {
 			if(isBFound == true) continue;
 			// forward
 			int countJ=0;
-			for(int j=0;j<str.length();j++) {
+			for(int j=i;j<str.length();j++) {
 				chJ = str.charAt(j);
 				if(chI == chJ) countJ++;
 			}
